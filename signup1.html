@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <style>
+        .main{
+            border:8px solid grey;
+            height:500px;
+            border-radius:6px; 
+        }
+        .box1{
+            background-image:url("books.jpeg");
+            width:60%;
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: relative;
+            box-sizing:border-box;
+            height:100%;
+            float:left;
+        }
+        
+        .box2{
+            background-color: #F5F5DC;
+            width:40%;
+            padding:10px;
+            box-sizing:border-box;
+            height:100%;
+            float:left;
+        }
+        .box1 h1{
+            margin:auto;
+            position: absolute;
+            left:45%;
+            right:50%;
+            top:50%;
+            bottom:50%;
+            color:blue;
+            
+        }
+        button{
+            
+            border-radius: 8px;
+            background-color:#F4A460;
+            color:black;
+            width:70px;
+            height:28px;
+            box-shadow: 2px 2px grey;
+            
+        }
+        button:hover{
+            background-color: lightskyblue;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="box1">
+         <h1>Sale & Buy Books</h1>
+        </div>
+
+       <div class="box2">
+          <h1>Sign Up</h1>
+           <h2>Name</h2>
+           <input type="text" placeholder="Name_">
+           <h2>Email</h2>
+           <input type="text" placeholder="Email_">
+           <h2>Password</h2>
+           <input type="password" placeholder="********">
+           <h2>Confirm Password</h2>
+           <input type="password" placeholder="********">
+
+           <br>
+           <br>
+
+           <button>Sign Up</button>
+       </div>
+    </div>
+    
+</body>
+</html>
